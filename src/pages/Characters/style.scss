@@ -1,0 +1,38 @@
+.characters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    font-size: 1.2rem;
+    input{
+        width: 27%;
+        margin: 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        height: 2rem;
+        border-style: ridge;
+        border-color: rgb(255, 0, 0);
+    }
+    input::placeholder{
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+    }
+    .bt_busca_character{
+        width: 10%;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 0.3rem;
+        padding: 0.8rem;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+

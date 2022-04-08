@@ -1,4 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.menu ul{
+    display: flex;
+}
+
 .menu li{
     cursor: pointer;
     list-style-type: none;
+    padding: 1rem;
+}
+
+.menu li:hover{
+    background-color: black;
+    padding: 0.7rem;
+    transition: 0.7s;
+    font-size: 1.1rem;
 }
